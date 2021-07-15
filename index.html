@@ -19,11 +19,11 @@
     </header>
     <h1>DEVOUTEST</h1>
     <hr>
-    <a href="C:/dev/Devoutest/about.htm"> ABOUT PAGE</a>
+    <a href="C:/dev/Devoutest/team.htm"> Team</a>
 
     <nav>
         <ul>
-            <li><a href: "about.html"> About</a></li>
+            <li><a href: "team.html"> About</a></li>
             <li><a href: "team.html"> Team</a></li>
             <li><a href: "Lets collaborate"> Lets collaborate!</a></li>
         </ul>
@@ -114,7 +114,7 @@
             <p>Feel free to reach out, we’d love to hear what kind of services you need and how we can help you</p>
             </p>
             <div>
-                <form>
+                <form action="https://www.google.com/search">
 
                     <table>
                         <tr>
@@ -125,15 +125,55 @@
                         </tr>
                     </table>
 
-                    <input type="email" placeholder="Email" name="email">
+                    <input type="email" placeholder="Email" name="email" required>
                     <input type="number" placeholder="Phone" name="phone">
                     <p>
 
-                        <input type="text" placeholder="Tell us more about yout project" name="about ">
+                        <textarea placeholder="Tell us more about yout project" name="about " rows="10"
+                            cols="40"></textarea>
                     </p>
-                    <p> <button>Submit</button>
+                    <p> <button name="q">Submit</button>
+                        <label for="range"> rate us</label> <input type="range" id="range">
                     </p>
                 </form>
+            </div>
+            <div>
+                <h3>race registration </h3>
+                <form action=" ">
+                    <div>
+                        <label for="first">First Name</label>
+                        <input type="text" id="first" name="firstname" placeholder="firstname" required>
+                        <label for="last">Last Name</label>
+                        <input type="text" id="last" placeholder="lastname" name="firstname">
+                    </div>
+                    <p> Select the race :
+
+                    </p>
+                    <div> <input type="radio" name="race" id="funrun" value="funrun">
+                        <label for="funrun">Fun Run 5k</label>
+                        <input type="radio" name="race" id="half" value="half">
+                        <label for="half"> Half Marathon</label>
+                        <input type="radio" name="race" id="full" value="full">
+                        <label for="full">Full Marathon</label>
+                    </div>
+                    <div>
+                        <input type="email" id="email" name="" placeholder="email" name="email" required>
+                        <label for="email">Email</label>
+                        <input type="password" id="pass" name="passwor" placeholder="password">
+                        <label for="pas">Password</label>
+                        <div>
+                            <label for="division">Select Age Group</label>
+                            <select name="division" id="division">
+                                <option value="kids">under 18</option>
+                                <option value="ya">18-30</option>
+                                <option value="adults">30-50</option>
+                                <option value="seniors">+</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </form>
+
             </div>
     </main>
 </body>
