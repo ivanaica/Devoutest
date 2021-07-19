@@ -1,17 +1,50 @@
 h1{
     text-decoration: wavy #ff45ff;
 }
-section{ 
-    font family: Be Vietnam;
+h1{
+    font family: avenir;
     text-decoration: wavy; #ff45ffl;
     text-weight: normal;
-    text-align: center;
-}
+    text-align: center;}
+
 nav{
-    text-align: right;
+  
+    text-align: center;
+    text-transform: uppercase;
 }
 span{
     align-items: right;
 }p{ font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
+}
+#first{
+    color: slateblue;
+    text-align: center;
+    text-weight: normal;
+    font-size: large;
+}
+#new{
+    color: orangered;
+    text-size-adjust: bold;
+    text-align: center;
+    
+    .nav{
+        font-weight: bold;
+        font-size: 16px;
+    
+        .img{ border-image-source: ;}
+    }
+}
+a:hover{
+    color: peru;
+    text-decoration: underline;
+}
+nav > button:active{
+    background-color: peru;
+    color: blue;
+
+}
+nav>button{
+    background-color: snow;
+    color: slateblue;
 }
