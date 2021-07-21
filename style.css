@@ -8,10 +8,17 @@ h1{
     text-align: center;}
 
 nav{
-  
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     text-transform: uppercase;
+    color: #1a1b41;
+    line-height: 39px;
 }
+nav:hover{
+    color: peru;
+}
+
 span{
     align-items: right;
 }p{ font-family: Arial, Helvetica, sans-serif;
@@ -45,6 +52,56 @@ nav > button:active{
 
 }
 nav>button{
-    background-color: snow;
-    color: slateblue;
+    background-color: #1a1b41;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 21px;
+    font-family:Arial,Helvetica,sans-serif; 
+   
+    border-radius: 16px;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: var(--trans1,border-color .4s ease 0s,background-color .4s ease 0s);
+    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+}
+.box{
+    width: 600px;
+    height: 800px;
+}
+.img{
+    border-radius: 8px;
+    object-position: right;
+     }
+   
+.image {
+    width: 490;
+    height: 652;
+    object-fit: cover;
+   object-position: 50% 50% ;
+}
+ 
+#submit{
+    background-color: #1a1b41;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 21px;
+    font-family:Arial,Helvetica,sans-serif; 
+   
+    border-radius: 16px;
+    text-align: center;
+}
+.form{
+    text-align: center;
+
+}
+#center{
+    text-align: center;
+}
+#footer{
+    font-family: Be Vietnam;
+    text-align: center;
+    text-transform: uppercase;
 }
