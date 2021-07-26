@@ -80,6 +80,7 @@ nav>button{
     /* width: 200PX;
     height: 40PX;*/
    
+   
     border-radius: 25px;
     position: relative;
     top: 0;
@@ -137,3 +138,14 @@ nav>button{
 
    
 }
+#ter{
+    height: 200px;
+    background-color: #1a1b41;
+text-align: center;}
+#pls{ display: inline-block;
+    position:relative;
+    height: 500px;
+    width: 500px;
+}
+    
+        
